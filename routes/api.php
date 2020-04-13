@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 Route::group([
     'namespace'  => 'Dev',
-    'prefix'     => 'v1/dev',
+    'prefix'     => 'dev',
 ], function ($router) {
     require base_path('routes/dev.php');
 });

@@ -19,10 +19,9 @@ class PostController extends Controller
     }
 
 
-    public function show($slug)
+    public function show(Post $post)
     {
-        $query = Post::where('slug' , $slug)->first();
-        return new PostResource($query);
+        return new PostResource($post);
     }
 
 
