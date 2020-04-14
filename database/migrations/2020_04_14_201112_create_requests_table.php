@@ -15,11 +15,9 @@ class CreateRequestsTable extends Migration
     {
         Schema::create('requests', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->constrained();
+            $table->string('subject');
             $table->text('body');
-            $table->string('name');
-            $table->string('mobile');
-            $table->string('field');
-            $table->string('national_code');
             $table->timestamps();
         });
     }
