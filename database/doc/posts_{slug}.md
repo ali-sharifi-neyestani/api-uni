@@ -2,7 +2,7 @@ VERSION: 0.1
 
 ##  /posts/{slug}
 
-### Single Page for Posts [GET]
+### show single post by slug [GET]
 
 
 + Response 200 (application/json)

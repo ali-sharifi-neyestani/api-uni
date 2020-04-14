@@ -3,7 +3,7 @@ VERSION: 0.1
 
 ##  /posts
 
-### List All Posts [GET]
+### show all posts [GET]
 
 
 + Response 200 (application/json)
