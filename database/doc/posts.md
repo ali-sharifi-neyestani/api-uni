@@ -1,5 +1,7 @@
 VERSION: 0.1
 
+#### get parameters
+?per=2&page=2
 
 ##  {{api}}/posts
 
