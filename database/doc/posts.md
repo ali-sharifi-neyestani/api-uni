@@ -1,7 +1,7 @@
 VERSION: 0.1
 
 
-##  /posts
+##  {{api}}/posts
 
 ### show all posts [GET]
 
@@ -29,3 +29,13 @@ VERSION: 0.1
                 }
             ]
         }
+
+
+
+    {
+        "errors": {
+            "unauthorised": [
+                "Unauthorized"
+            ]
+        }
+    }

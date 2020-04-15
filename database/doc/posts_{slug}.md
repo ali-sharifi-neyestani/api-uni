@@ -1,6 +1,6 @@
 VERSION: 0.1
 
-##  /posts/{slug}
+##  {{api}}/posts/{slug}
 
 ### show single post by slug [GET]
 

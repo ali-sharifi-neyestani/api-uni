@@ -1,7 +1,7 @@
 VERSION: 0.1
 
 
-##  /requests
+##  {{api}}/requests
 
 ### create new requests [POST]
 
