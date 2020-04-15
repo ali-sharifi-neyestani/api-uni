@@ -29,7 +29,7 @@ Route::prefix('posts')->group(function () {
 | Users
 |--------------------------------------------------------------------------
 */
-Route::prefix('requests')->group(function () {
+Route::prefix('requests')->middleware('auth:api')->group(function () {
     Route::post('/', 'RequestController@store');
 });
 
