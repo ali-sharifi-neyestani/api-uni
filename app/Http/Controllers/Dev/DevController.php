@@ -104,16 +104,7 @@ class DevController extends Controller
     }
 
 
-    public function getTest(Request $request)
-    {
-        if(Request::hasFile('file')){
-            $file = Request::file('file');
-            return $this->uploadVideo($file);
-        }
 
-
-        return 444;
-    }
 
 
     public function uploadVideo($originalMedia)

@@ -1,8 +1,11 @@
 <?php
 
+
+Route::resource('/tests', 'TestController');
+
+
 Route::get('/columns/{table}', 'DevController@getTableColumns');
 Route::any('/keys', 'DevController@getkeys');
-Route::any('/test', 'DevController@getTest');
 
 
 
